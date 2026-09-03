@@ -11,3 +11,6 @@ wheels/
 
 #macOS Finder metadata file
 .DS_Store
+
+#joblib (will be created in notebook)
+models/*.joblib
