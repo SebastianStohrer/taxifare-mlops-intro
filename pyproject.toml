@@ -9,8 +9,10 @@ authors = [
 requires-python = ">=3.12.9"
 dependencies = [
     "fastapi>=0.141.1",
-    "pandas<3",
     "uvicorn>=0.52.4",
+    "db-dtypes>=1.7.1",
+    "pandas<3",
+    "scikit-learn>=1.9.0",
 ]
 
 [project.scripts]
@@ -22,5 +24,8 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "google-cloud-bigquery>=3.44.0",
     "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "seaborn>=0.13.2",
 ]
