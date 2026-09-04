@@ -9,6 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+# Editor
+.vscode/
 #macOS Finder metadata file
 .DS_Store
 
